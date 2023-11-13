@@ -5,7 +5,7 @@ public class Main {
 
         System.out.println("Please enter a number between 0 - 9");
         Scanner myscan = new Scanner(System.in);
-        int x = 1;
+        int x = 0;
         while (x == 0) {
 
             try {
@@ -20,6 +20,7 @@ public class Main {
                     x++;
                 } else {
                     System.out.println("Not a valid number");
+
                 }
             } catch (NumberFormatException e) {
                 System.out.println("Enter a numeric value");
